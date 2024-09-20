@@ -1,0 +1,36 @@
+/* frontend/src/App.css */
+.app {
+    display: flex;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* frontend/src/styles/Sidebar.css */
+  .sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .category {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  li:hover {
+    background-color: #dee2e6;
+  }
+  
